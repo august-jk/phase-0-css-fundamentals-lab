@@ -3,3 +3,23 @@ body {
   height: 100%;
   margin: 0;
 }
+* {
+  text-align: center;
+}
+div {
+  float: left;
+  background-color: red;
+  width: 25%;
+}
+nav > a {
+  background-color: lightgray;
+}
+figcaption {
+  font-size: medium;
+}
+section#featured-property > p {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
